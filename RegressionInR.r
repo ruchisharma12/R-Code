@@ -51,7 +51,7 @@ regressionCoefficient <-function(){
   print(str2)
   result<-paste(str1,str2, sep="   ")
   #writing the result into a .csv file
-  write.csv(result,"C:/Users/MOHAMMAD ASHFAK/Downloads/190011_Stat_II_W13_Project2_Linear Regression In R/RegressionCoefficient.csv")
+  write.csv(result,"C:/Users/Downloads/190011_Stat_II_W13_Project2_Linear Regression In R/RegressionCoefficient.csv")
 }
 #compute linear regression Equation
 regressionEquation <- function(){
@@ -83,7 +83,7 @@ regressionEquation <- function(){
   print(str1)
   print(str2)
   #writing the result into a .csv file
-  write.csv(result,"C:/Users/MOHAMMAD ASHFAK/Downloads/190011_Stat_II_W13_Project2_Linear Regression In R/RegressionEquation.csv")
+  write.csv(result,"C:/Users/190011_Stat_II_W13_Project2_Linear Regression In R/RegressionEquation.csv")
   }
 #plot the graph
 graph <- function(){
