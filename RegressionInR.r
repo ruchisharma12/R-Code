@@ -12,7 +12,7 @@
 #          1.01 2021-16-09 Data read and write features added
 # create the data from .csv file
 #read data from .csv file
-newdata <- read.csv("C:/Users/MOHAMMAD ASHFAK/Downloads/190011_Stat_II_W13_Project2_Linear Regression In R/data.csv")
+newdata <- read.csv("C:/Users/Downloads/190011_Stat_II_W13_Project2_Linear Regression In R/data.csv")
 print(newdata)
 
 X= newdata$X;
